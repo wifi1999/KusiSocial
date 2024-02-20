@@ -51,12 +51,11 @@ Make sure you have the following installed on your machine:
 ### Installation
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/your-username/messenger-app.git
+      git clone https://github.com/your-username/messenger-app.git
 
 2. Install the dependencies:  
-   ``bash
+   ```bash
       cd api
       npm install
    
@@ -65,37 +64,43 @@ Make sure you have the following installed on your machine:
    
       cd socket
       npm install
- 
-3. Database Setup
-## Create a MongoDB database and obtain the connection URL.
-## Create a .env file in the backend folder with the following content:
+   ```
+   
+3. Create Environmental Variables:
+## create .env file for api server: 
+```bash
+   cd api 
+   touch .env
+   MONGO_URL=your_mongodb_connection_url # insert this line to the .env file
+```
 
-   ``bash 
-      MONGO_URL=your_mongodb_connection_url
+## create .env file for client: 
+```bash
+   cd client
+   touch .env
+   REACT_APP_PUBLIC_FOLDER=http://localhost:8080/images # insert this line to the .env file
+```
 
-4. Starting the Application
-Start the backend server:
+4. Starting the Application: 
+## Start the backend server:
 
-bash
-Copy code
-cd backend
-npm start
-The server will run on http://localhost:8080.
+```bash
+   cd api
+   npm run dev
+```
+## The server will run on http://localhost:8080.
 
-Start the frontend development server:
 
-bash
-Copy code
-cd frontend
-npm start
-The React app will be available at http://localhost:3000.
+## Start the frontend server:
 
-Open your browser and go to http://localhost:3000 to use the application.
+```bash
+   cd frontend
+   npm start
+```
+## The React app will be available at http://localhost:3000.
 
-Usage
-Register a new account or log in if you already have one.
-Explore the application using the navigation bar.
-Visit the messenger page to chat with other users in real-time.
-View and edit your profile.
+## Open your browser and go to http://localhost:3000 to use the application.
+
+
 
 

@@ -52,7 +52,7 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
    ```bash
-      git clone https://github.com/your-username/messenger-app.git
+      github.com/wifi1999/Kusiday_Deploy.git
 
 2. Install the dependencies:  
    ```bash

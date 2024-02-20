@@ -69,14 +69,14 @@ Make sure you have the following installed on your machine:
    ```
    
 3. Create Environmental Variables:
-### create .env file for api server: 
+   create .env file for api server: 
 ```bash
    cd api 
    touch .env
    MONGO_URL=your_mongodb_connection_url # insert this line to the .env file
 ```
 
-### create .env file for client: 
+   create .env file for client: 
 ```bash
    cd client
    touch .env
@@ -84,7 +84,7 @@ Make sure you have the following installed on your machine:
 ```
 
 4. Starting the Application: 
-   ### Start the backend server:
+      Start the backend server:
 
 ```bash
    cd api

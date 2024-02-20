@@ -99,7 +99,7 @@ Make sure you have the following installed on your machine:
 ```
    The Server will run on http://localhost:3000.
 
-## Open your browser and go to http://localhost:3000 to use the application.
+### Open your browser and go to http://localhost:3000 to use the application. Enjoy!
 
 
 

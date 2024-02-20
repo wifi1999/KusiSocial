@@ -56,7 +56,7 @@ Make sure you have the following installed on your machine:
    git clone https://github.com/your-username/messenger-app.git
 
 2. Install the dependencies:  
-   ```bash
+   ``bash
       cd api
       npm install
    
@@ -67,14 +67,13 @@ Make sure you have the following installed on your machine:
       npm install
  
 3. Database Setup
-Create a MongoDB database and obtain the connection URL.
+## Create a MongoDB database and obtain the connection URL.
+## Create a .env file in the backend folder with the following content:
 
-Create a .env file in the backend folder with the following content:
+   ``bash 
+      MONGO_URL=your_mongodb_connection_url
 
-env
-Copy code
-MONGO_URL=your_mongodb_connection_url
-Starting the Application
+4. Starting the Application
 Start the backend server:
 
 bash

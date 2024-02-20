@@ -84,13 +84,13 @@ Make sure you have the following installed on your machine:
 ```
 
 4. Starting the Application: 
-### Start the backend server:
+   ### Start the backend server:
 
 ```bash
    cd api
    npm run dev
 ```
-### The server will run on http://localhost:8080.
+   ### The server will run on http://localhost:8080.
 
 
 ### Start the frontend server:

@@ -68,15 +68,12 @@ Make sure you have the following installed on your machine:
       npm install
    ```
    
-3. Create Environmental Variables:
-   create .env file for api server: 
+3. Create Environmental Variables: 
 ```bash
    cd api 
    touch .env
    MONGO_URL=your_mongodb_connection_url # insert this line to the .env file
-```
-
-   create .env file for client: 
+``` 
 ```bash
    cd client
    touch .env
@@ -84,23 +81,23 @@ Make sure you have the following installed on your machine:
 ```
 
 4. Starting the Application: 
-
-   Start the backend server:
-
 ```bash
    cd api
    npm run dev
 ```
    The server will run on http://localhost:8080.
 
-
-   Start the frontend server:
+```bash
+   cd socket
+   npm run dev
+```
+   The server will run on http://localhost:8900.
 
 ```bash
    cd frontend
    npm start
 ```
-### The React app will be available at http://localhost:3000.
+   The Server will run on http://localhost:3000.
 
 ## Open your browser and go to http://localhost:3000 to use the application.
 

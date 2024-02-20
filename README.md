@@ -41,19 +41,21 @@ Socket.io is integrated into the project to establish a real-time communication 
 
 
 
-Getting Started
-Prerequisites
+## Getting Started
+
+### Prerequisites
+
 Make sure you have the following installed on your machine:
 
-Node.js
-MongoDB
-Installation
-Clone the repository:
+- Node.js
+- MongoDB
 
-bash
-Copy code
-git clone https://github.com/your-username/messenger-app.git
-Navigate to the project folder:
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/messenger-app.git
 
 bash
 Copy code

@@ -57,12 +57,14 @@ Make sure you have the following installed on your machine:
 
 2. Install the dependencies:  
    ```bash
-   cd api
-   npm install
-   cd cliet
-   npm install
-   cd socket
-   npm install
+      cd api
+      npm install
+   
+      cd cliet
+      npm install
+   
+      cd socket
+      npm install
  
 3. Database Setup
 Create a MongoDB database and obtain the connection URL.

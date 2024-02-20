@@ -39,8 +39,6 @@ Socket.io is integrated into the project to establish a real-time communication 
 
 
 
-
-
 ## Getting Started
 
 ### Prerequisites
@@ -57,22 +55,16 @@ Make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/your-username/messenger-app.git
 
-bash
-Copy code
-cd messenger-app
-Install backend dependencies:
-
-bash
-Copy code
-cd backend
-npm install
-Install frontend dependencies:
-
-bash
-Copy code
-cd frontend
-npm install
-Database Setup
+2. Install the dependencies:  
+   ```bash
+   cd api
+   npm install
+   cd cliet
+   npm install
+   cd socket
+   npm install
+ 
+3. Database Setup
 Create a MongoDB database and obtain the connection URL.
 
 Create a .env file in the backend folder with the following content:

@@ -40,3 +40,67 @@ Socket.io is integrated into the project to establish a real-time communication 
 
 
 
+
+Getting Started
+Prerequisites
+Make sure you have the following installed on your machine:
+
+Node.js
+MongoDB
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/messenger-app.git
+Navigate to the project folder:
+
+bash
+Copy code
+cd messenger-app
+Install backend dependencies:
+
+bash
+Copy code
+cd backend
+npm install
+Install frontend dependencies:
+
+bash
+Copy code
+cd frontend
+npm install
+Database Setup
+Create a MongoDB database and obtain the connection URL.
+
+Create a .env file in the backend folder with the following content:
+
+env
+Copy code
+MONGO_URL=your_mongodb_connection_url
+Starting the Application
+Start the backend server:
+
+bash
+Copy code
+cd backend
+npm start
+The server will run on http://localhost:8080.
+
+Start the frontend development server:
+
+bash
+Copy code
+cd frontend
+npm start
+The React app will be available at http://localhost:3000.
+
+Open your browser and go to http://localhost:3000 to use the application.
+
+Usage
+Register a new account or log in if you already have one.
+Explore the application using the navigation bar.
+Visit the messenger page to chat with other users in real-time.
+View and edit your profile.
+
+

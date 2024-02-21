@@ -5,7 +5,7 @@
 KusiDay is a full-stack Social Media App designed to provide users with a seamless and engaging social experience. The application allows users to register, log in, create and manage posts, interact with other users through likes, dislikes, follows, and unfollows. It also features a real-time chat system, enabling users to connect with each other instantly.
 
 ## Video Demo
-https://github.com/wifi1999/Kusiday_Deploy/blob/main/Demo.mp4 
+Demo.mp4 
 
 ## Project Structure
 

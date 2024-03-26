@@ -55,7 +55,7 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
    ```bash
-      git clone github.com/wifi1999/Kusiday_Deploy.git
+      git clone https://github.com/wifi1999/KusiSocial.git
 
 2. Install the dependencies:  
    ```bash

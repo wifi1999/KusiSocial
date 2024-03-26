@@ -2,7 +2,7 @@
 
 ## Overview
 
-KusiSocial is a full-stack social media platform offering seamless user interaction. Users can register, create posts, and engage with others through likes, dislikes, follows, and unfollows. The app also includes real-time chat for instant connections.
+KusiSocial is a full-stack social media App offering seamless user interaction. Users can register, create posts, and engage with others through likes, dislikes, follows, and unfollows. The app also includes real-time chat for instant connections.
 
 ## Video Demo
 https://github.com/wifi1999/Kusiday_Deploy/blob/main/Demo.mp4
@@ -93,10 +93,10 @@ Make sure you have the following installed on your machine:
    The server will run on http://localhost:8900.
 
 ```bash
-   cd frontend
+   cd client
    npm start
 ```
-   The Server will run on http://localhost:3000.
+   The server will run on http://localhost:3000.
 
 ### Open your browser and go to http://localhost:3000 to use the application. Enjoy!
 

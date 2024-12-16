@@ -4,8 +4,6 @@
 
 KusiSocial is a full-stack social media App offering seamless user interaction. Users can register, create posts, and engage with others through likes, dislikes, follows, and unfollows. The app also includes real-time chat for instant connections.
 
-## Video Demo
-https://github.com/wifi1999/Kusiday_Deploy/blob/main/Demo.mp4
 
 ## Project Structure
 
